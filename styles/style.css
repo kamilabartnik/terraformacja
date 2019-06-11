@@ -1,8 +1,8 @@
-html, body {
+/* html, body {
   width: 100%;
   height: 100%;
   margin: 0;
-}
+} */
 
 #sidebar, #content {
   height: 100%;
@@ -12,7 +12,7 @@ html, body {
 }
 
 #sidebar {
-  background:white;
+  background:rgb(224, 224, 224);
   width: 30%;
   box-shadow: 2px 0 4px rgba(0,0,0,0.5);
 }
@@ -61,12 +61,12 @@ h3 {
   text-align:center;
 }
 
-p, li {
+p {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
   margin: 10%
-}
+} 
 
 html {
   background-color: #fffbfba8;
@@ -79,3 +79,57 @@ img {
   width: 100%;
 }
 
+* {margin: 0; padding: 0;}
+
+a {text-decoration: none;}
+
+/* This class is added on scroll */
+.fixed {
+	position: fixed;
+	top: 0;
+	height: 70px;
+	z-index: 1;
+}
+
+/* body {
+	color: #fff;
+	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
+	font-size: 18px;
+	text-align: center;
+}  */
+
+/* Navigation Settings */
+nav {
+	bottom: 0;
+	width: 100%;
+	height: 70px;
+  background: #fff;
+  text-align: center;
+}
+
+nav li {
+	display: inline-block;
+	padding: 24px 10px;
+}
+
+nav li a {
+	color: #757575;
+	text-transform: uppercase;
+}
+
+
+@media only screen and (max-width: 520px) {
+
+	nav li {
+		padding: 24px 4px;
+	}
+
+	nav li a {
+		font-size: 14px;
+	}
+
+}
+
+section {
+	height: 55vh;
+}
