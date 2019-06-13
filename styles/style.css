@@ -6,11 +6,15 @@
 
 @font-face {
   font-family: 'prototyperegular';
-  src: url('prototype-webfont.woff2') format('woff2'),
-       url('prototype-webfont.woff') format('woff');
+  src: url('font/webfontkit-20190612-070531.woff2') format('woff2'),
+       url('font/webfontkit-20190612-070531.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 
+}
+
+body {
+  font-style: 'prototyperegular';
 }
 
 #sidebar, #content {
@@ -37,7 +41,26 @@
 #content {
   background:#fffbfba8;
   width: 70%;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: 1px;
+  margin: 2%;
 }
+
+#content p{
+  text-align: center;
+}
+
+
+#footer {
+  clear: both;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  font-size: 10px;
+  padding: 10px;
+}
+
 
 button {
   width: 30px;
@@ -66,17 +89,11 @@ h2 {
 }
 
 h3 {
-  /* font-family: sans-serif; */
+  font-family: sans-serif;
   color:white;
   text-align:center;
 }
 
-p {
-  font-size: 20px;
-  line-height: 2;
-  letter-spacing: 1px;
-  margin: 2%;
-} 
 
 html {
   background-color: #fffbfba8;
@@ -115,6 +132,7 @@ a {text-decoration: none;}
 	height: 70px;
   background: #fff;
   text-align: center;
+  font-size: 90%;
 }
 
 #navbar li {
@@ -126,6 +144,10 @@ a {text-decoration: none;}
 	color: #757575;
 	text-transform: uppercase;
 }
+
+
+
+
 
 
 /* @media only screen and (max-width: 520px) {
