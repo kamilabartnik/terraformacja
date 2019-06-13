@@ -60,6 +60,19 @@ body {
   padding: 10px;
 }
 
+#foot, #foot2 {
+  float: left;
+}
+
+/* #foot {
+  width: 70%;
+} */
+
+#foot2 {
+  /* width: 30%; */
+  text-align: center;
+}
+
 
 button {
   width: 30px;
@@ -67,7 +80,7 @@ button {
   border-radius: 50%;
   border:none;
   outline:none;
-  background: black;
+  background: #303030;
   margin: 20px;
   cursor:pointer;
 }
@@ -77,7 +90,7 @@ h1 {
   text-align: center;
   margin: 0;
   padding: 20px 0;
-  color: black;
+  color: #303030;
   text-shadow: 3px 3px 1px grey;
 }
 
