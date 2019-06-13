@@ -4,7 +4,7 @@
   margin: 0;
 } */
 
-@font-face {
+/* @font-face {
   font-family: 'prototyperegular';
   src: url('font/webfontkit-20190612-070531.woff2') format('woff2'),
        url('font/webfontkit-20190612-070531.woff') format('woff');
@@ -15,13 +15,13 @@
 
 body {
   font-style: 'prototyperegular';
-}
+} */
 
 #sidebar, #content {
   height: 100%;
-  overflow:auto;
-  float:left;
-  transition: width .35s;
+  overflow: auto;
+  float: left;
+  /* transition: width .35s; */
 }
 
 #sidebar {
@@ -40,7 +40,6 @@ body {
 
 #content {
   background:#fffbfba8;
-  width: 70%;
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
