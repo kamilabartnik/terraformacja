@@ -12,10 +12,11 @@
   font-style: normal;
 
 }
-
+*/
 body {
   font-style: 'prototyperegular';
-} */
+  color: #757575;
+} 
 
 #sidebar, #content {
   height: 100%;
