@@ -13,8 +13,11 @@
 
 }
 */
+
+
+
 body {
-  font-style: 'prototyperegular';
+  font-family: 'Gruppo', cursive;
   color: #757575;
   max-width: 1200px;
   margin: 0 auto;
@@ -28,11 +31,14 @@ body {
 }
 
 #sidebar {
-  background:#f0efefa8;
+  /* background:#f0efefa8; */
   /* width: 30%; */
+  /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
+  background-image: url("../images/tlo.png");
   box-shadow: 2px 0 4px rgba(126, 126, 126, 0.5); 
   line-height: 2;
   letter-spacing: 0,5px;
+  color: #afafaf;
 }
 
 /* /* #sidebar.collapsed {
@@ -49,18 +55,18 @@ body {
   font-size: 20px;
   line-height: 2;
   letter-spacing: 1px;
-  margin: 2%;
+  padding: 0px 0px 0px 20px;
 }
 
 #content p{
-  text-align: left;
+  text-align: right;
   justify-content: flex-start;
 }
 
 
 #footer {
   clear: both;
-  position: fixed;
+  /* position: fixed; */
   bottom: 0;
   text-align: center;
   font-size: 15px;
