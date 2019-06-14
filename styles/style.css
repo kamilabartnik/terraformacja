@@ -16,30 +16,35 @@
 body {
   font-style: 'prototyperegular';
   color: #757575;
+  max-width: 1200px;
+  margin: 0 auto;
 } 
 
 #sidebar, #content {
-  height: 100%;
-  overflow: auto;
+  /* height: 100%; */
+  /* overflow: auto; */
   float: left;
   /* transition: width .35s; */
 }
 
 #sidebar {
-  background:rgb(224, 224, 224);
-  width: 40%;
-  box-shadow: 2px 0 4px rgba(0,0,0,0.5);
+  background:#f0efefa8;
+  /* width: 30%; */
+  box-shadow: 2px 0 4px rgba(126, 126, 126, 0.5); 
+  line-height: 2;
+  letter-spacing: 0,5px;
 }
 
-#sidebar.collapsed {
+/* /* #sidebar.collapsed {
   width: 0;
-}
+} 
 
 #sidebar.collapsed + #content {
   width: 100%;
-}
+} */
 
 #content {
+  width: 65%;
   background:#fffbfba8;
   font-size: 20px;
   line-height: 2;
@@ -48,7 +53,8 @@ body {
 }
 
 #content p{
-  text-align: center;
+  text-align: left;
+  justify-content: flex-start;
 }
 
 
@@ -70,7 +76,7 @@ body {
   text-align: center;
 }
 
-
+/* 
 button {
   width: 30px;
   height: 30px;
@@ -80,7 +86,7 @@ button {
   background: #303030;
   margin: 20px;
   cursor:pointer;
-}
+} */
 
 h1 {
   font-size: 60px;
@@ -122,9 +128,11 @@ a {text-decoration: none;}
 /* This class is added on scroll */
 .fixed {
 	position: fixed;
-	top: 0;
+  top: 0;
+  width: 100%;
 	height: 70px;
-	z-index: 1;
+  z-index: 1;
+  text-align: center;
 }
 
 /* body {
