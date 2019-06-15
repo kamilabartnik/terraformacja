@@ -41,6 +41,10 @@ body {
   color: #afafaf;
 }
 
+#sidebar ol li:first-child {
+  color: blue;
+}
+
 /* #sidebar ul:before{
 
 } */
@@ -114,15 +118,10 @@ h2 {
 }
 
 h3 {
-  font-family: sans-serif;
-  color:white;
+  margin-top: 20px;
   text-align:center;
 }
 
-
-html {
-  background-color: #fffbfba8;
-}
 
 img {
   display: inline;
