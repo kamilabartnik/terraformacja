@@ -188,6 +188,11 @@ a {text-decoration: none;}
   display: inline-block;
 }
 
+#calendar {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
 
 
 
