@@ -9,10 +9,16 @@
     <link href="https://fonts.googleapis.com/css?family=Gruppo&display=swap" rel="stylesheet"> <link href="styles/style.css" rel="stylesheet" type="text/css" />
     <link href="fontello-4a71da1c/css/fontello.css" rel="stylesheet" type="text/css" />
   
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+
+    
     <!-- [if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></sctipt>
     <![endif]-->
-  
+      
+
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
   </head>
   <style>
 
@@ -52,7 +58,7 @@
                   </div>
               </div>
               <div class="small-6 columns">
-                  <h1 class="text-center">MONSTER</h1>
+                  <h1 class="text-center">MARS</h1>
                   <div class="healthbar">
                       <div class="healthbar text-center" style="background-color: green; margin: 0; color: white;"
                       :style="{width: monsterHealth + '%'}">
