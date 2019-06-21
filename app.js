@@ -19,7 +19,7 @@ new Vue({
             this.monsterHealth -= damage;
             this.turns.unshift({
                 isPlayer: true,
-                text: 'Player hits Monster for '+ damage
+                text: 'Player terraforms Mars for '+ damage
             });
             if(this.checkWin()){
                 return;
@@ -31,7 +31,7 @@ new Vue({
             this.monsterHealth -= damage;
             this.turns.unshift({
                 isPlayer: true,
-                text: 'Player hits Monster hard for '+ damage
+                text: 'Player terraforms Mars hard for '+ damage
             });
             if(this.checkWin()){
                 return;
@@ -60,7 +60,7 @@ new Vue({
             this.playerHealth -= damage;
             this.turns.unshift({
                 isPlayer: false,
-                text: 'Monster hits Player for '+ damage
+                text: 'Mars hits Player for '+ damage
             });
             this.checkWin();
         },
@@ -69,7 +69,7 @@ new Vue({
         },
         checkWin: function(){
             if(this.monsterHealth <=0){
-                    if(confirm('You won! New game?')){
+                    if(confirm('You terraforms Mars! New game?')){
                         this.startGame();
                     } else{
                     this.gameIsRunning = false;
