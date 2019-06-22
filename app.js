@@ -19,7 +19,7 @@ new Vue({
             this.monsterHealth -= damage;
             this.turns.unshift({
                 isPlayer: true,
-                text: 'Player terraforms Mars for '+ damage
+                text: 'Ziemia terraformuje Marsa za '+ damage
             });
             if(this.checkWin()){
                 return;
@@ -31,7 +31,7 @@ new Vue({
             this.monsterHealth -= damage;
             this.turns.unshift({
                 isPlayer: true,
-                text: 'Player terraforms Mars hard for '+ damage
+                text: 'Ziemia zrzuca meteoryt na Marsa za '+ damage
             });
             if(this.checkWin()){
                 return;
@@ -47,7 +47,7 @@ new Vue({
             }
             this.turns.unshift({
                 isPlayer: true,
-                text: 'Player heals for '+ heal
+                text: 'Ziemia się leczy '+ heal
             });
             this.monsterAttack();
         },
@@ -60,7 +60,7 @@ new Vue({
             this.playerHealth -= damage;
             this.turns.unshift({
                 isPlayer: false,
-                text: 'Mars hits Player for '+ damage
+                text: 'Mars wysyła czerwony piach za '+ damage
             });
             this.checkWin();
         },
@@ -69,14 +69,14 @@ new Vue({
         },
         checkWin: function(){
             if(this.monsterHealth <=0){
-                    if(confirm('You terraforms Mars! New game?')){
+                    if(confirm('Sterraformowałeś Marsa! Nowa gra?')){
                         this.startGame();
                     } else{
                     this.gameIsRunning = false;
                     }
                     return true;
             } else if(this.playerHealth <=0){
-                    if(confirm('You lost! New game?')){
+                    if(confirm('Mars wygrywa! Nowa gra?')){
                         this.startGame();
                     } else{
                     this.gameIsRunning = false;
