@@ -12,10 +12,15 @@
     <!-- [if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></sctipt>
     <![endif]-->
+
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   
   </head>
   <style>
 
+    #formstyle{
+      text-align: center;
+    }
 
   </style>
 
@@ -40,6 +45,48 @@
       </header>
 
       <main>
+        <article id="formstyle">
+            <h1> Wpisz swoją rozgrywkę: </h1>
+
+          <div id="formcorrect">
+              <form>
+                  <section>
+                    
+
+                    <label>Miejsce rozgrywki
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Data rozgrywki
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Pierwsze miejsce
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Drugie miejsce
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Trzecie miejsce
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Czwarte miejsce
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Piąte miejsce
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                    <label>Ilość pokoleń
+                      <input type="text" class="form-control form-control-lg"> 
+                    </label><br />
+                  </section>
+    
+                </form>
+    
+          </div>
+
+        
+        </article>
+
+        <script src="scripts/rozgrywki.js"> </script>
 
       </main>
       <footer id="footer">
