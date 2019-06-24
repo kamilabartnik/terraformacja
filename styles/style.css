@@ -14,72 +14,12 @@
 }
 */
 
-
-
 body {
   font-family: 'Gruppo', cursive;
   color: #757575;
   max-width: 1200px;
   margin: 0 auto;
 } 
-
-#welcome {
-  font-size: 80px;
-  letter-spacing: 4px;
-}
-
-
-#sidebar, #content {
-  /* height: 100%; */
-  /* overflow: auto; */
-  float: left;
-  list-style-position: inside;
-  padding-left: 10px;
-  padding-right: 10px;
-  /* transition: width .35s; */
-}
-
-#sidebar {
-  /* background:#f0efefa8; */
-  /* width: 30%; */
-  /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
-  background-image: url("../images/tlo.png");
-  box-shadow: 2px 0 4px rgba(160, 160, 160, 0.5); 
-  line-height: 2;
-  letter-spacing: 0,5px;
-  color: #afafaf;
-}
-/* 
-#sidebar ol li:first-child {
-  color: blue;
-} */
-
-/* #sidebar ul:before{
-
-} */
-
-/* /* #sidebar.collapsed {
-  width: 0;
-} 
-
-#sidebar.collapsed + #content {
-  width: 100%;
-} */
-
-#content {
-  width: 65%;
-  background:#fffbfba8;
-  font-size: 20px;
-  line-height: 2;
-  letter-spacing: 1px;
-  padding: 0px 0px 0px 20px;
-}
-
-#content p{
-  text-align: right;
-  justify-content: flex-start;
-}
-
 
 #footer {
   clear: both;
@@ -98,18 +38,6 @@ body {
   margin-left: 10px;
   text-align: center;
 }
-
-/* 
-button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border:none;
-  outline:none;
-  background: #303030;
-  margin: 20px;
-  cursor:pointer;
-} */
 
 h1 {
   font-size: 60px;
@@ -154,12 +82,6 @@ a {text-decoration: none;}
   max-width: 1200px;
 }
 
-/* body {
-	color: #fff;
-	font-family: 'open-sans-bold', AvenirNext-Medium, sans-serif;
-	font-size: 18px;
-	text-align: center;
-}  */
 
 /* Navigation Settings */
 #navbar {
@@ -185,34 +107,8 @@ a {text-decoration: none;}
   background-color: #f7f5f5;
 }
 
-.faqcategories {
 
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-.faq {
-  margin-top: 10px;
-  padding: 15px;
-  display: inline-block;
-}
-
-#calendar {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-#calendarbutton {
-  margin-left: auto;
-  margin-right: auto;
-  text-align: center;
-}
-
-
-
-/* @media only screen and (max-width: 520px) {
+@media only screen and (max-width: 520px) {
 
 	nav li {
 		padding: 24px 4px;
@@ -222,6 +118,6 @@ a {text-decoration: none;}
 		font-size: 14px;
 	}
 
-} */
+}
 
 
