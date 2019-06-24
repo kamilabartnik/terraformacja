@@ -55,13 +55,16 @@
         <article id="formstyle">
             <h1> Wpisz swoją rozgrywkę: </h1>
 
-          <div id="formcorrect">
+          <div id="popupContact">
 
               <form action="#" id="form" method="post" name="form">
-                  <img id="close" src="images/3.png" onclick ="div_hide()">
-                  <h2>Contact Us</h2>
+                  <!-- <img id="close" src="images/3.png" onclick ="div_hide()"> -->
+                  <h2>Dane rozgrywki</h2>
                   <hr>
-                  <input id="name" name="name" placeholder="Name" type="text">
+                  <input id="place" name="name" placeholder="Miejsce rozgrywki" type="text">
+                  <input id="firstplace" name="name" placeholder="Pierwsze miejsce" type="text">
+                  <input id="secondplace" name="name" placeholder="Drugie miejsce" type="text">
+                  
                   <input id="email" name="email" placeholder="Email" type="text">
                   <textarea id="msg" name="message" placeholder="Message"></textarea>
                   <a href="javascript:%20check_empty()" id="submit">Send</a>
