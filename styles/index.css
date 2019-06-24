@@ -1,11 +1,20 @@
 #welcome {
     font-size: 80px;
     letter-spacing: 4px;
+    /* background-color: #f7f4f4a8; */
+    margin-bottom: 50px;
   }
+
+#welcome h2{
+  font-size: 30px;
+}
   
+#screen2 {
+  background:#f7f4f4a8;
+}
   
   #sidebar, #content {
-    /* height: 100%; */
+    height: 100%;
     /* overflow: auto; */
     float: left;
     list-style-position: inside;
@@ -23,6 +32,21 @@
     letter-spacing: 0,5px;
     color: #afafaf;
   }
+
+  
+  #content {
+    width: 65%;
+  
+    font-size: 20px;
+    line-height: 2;
+    letter-spacing: 1px;
+    padding: 0px 0px 0px 40px;
+  }
+  
+  #content p{
+    text-align: right;
+    justify-content: flex-start;
+  }
   /* 
   #sidebar ol li:first-child {
     color: blue;
@@ -39,21 +63,6 @@
   #sidebar.collapsed + #content {
     width: 100%;
   } */
-  
-  #content {
-    width: 65%;
-    background:#fffbfba8;
-    font-size: 20px;
-    line-height: 2;
-    letter-spacing: 1px;
-    padding: 0px 0px 0px 40px;
-  }
-  
-  #content p{
-    text-align: right;
-    justify-content: flex-start;
-  }
-
   /* 
 button {
   width: 30px;
