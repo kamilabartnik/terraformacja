@@ -1,6 +1,6 @@
 
 
-#abc {
+/* #formstyle {
 width:100%;
 height:100%;
 opacity:.95;
@@ -10,7 +10,7 @@ display:none;
 position:fixed;
 background-color:#313131;
 overflow:auto
-}
+} */
 /* img#close {
 position:absolute;
 right:-14px;
@@ -24,13 +24,13 @@ top:17%; */
 margin-left: auto;
 margin-right: auto
 }
-form {
-max-width:300px;
+#formstyle {
+max-width:400px;
 min-width:250px;
 padding:10px 50px;
-border:2px solid gray;
+/* border:2px solid gray; */
 border-radius:10px;
-font-family:raleway;
+/* font-family:raleway; */
 background-color:#fff
 }
 p {
@@ -55,7 +55,7 @@ margin-top:30px;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px;
-font-family:raleway
+/* font-family:raleway */
 }
 #place {
 background-image:url(../images/radar.png);
@@ -75,6 +75,12 @@ background-position-x: 5px
     background-position: left;
     background-position-x: 5px
     }
+    #thirdplace {
+        background-image:url(../images/third.jpg);
+        background-repeat:no-repeat;
+        background-position: left;
+        background-position-x: 5px
+        }
 textarea {
 background-image:url(/images/msg.png);
 background-repeat:no-repeat;
@@ -87,7 +93,7 @@ margin-top:30px;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px;
-font-family:raleway;
+/* font-family:raleway; */
 margin-bottom:30px
 }
 #submit {
@@ -113,7 +119,7 @@ height:45px;
 border-radius:3px;
 background-color:#cd853f;
 color:#fff;
-font-family:'Raleway',sans-serif;
+/* font-family:'Raleway',sans-serif; */
 font-size:18px;
 cursor:pointer
 }
