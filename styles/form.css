@@ -54,7 +54,7 @@ border-top:1px solid #ccc
 input[type=text] {
 width:82%;
 padding:10px;
-margin-top:30px;
+margin-top:20px;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px;
@@ -66,6 +66,17 @@ background-repeat:no-repeat;
 background-position: left;
 background-position-x: 5px
 }
+#date {
+    background-image:url(../images/date.png);
+    background-repeat:no-repeat;
+    background-position: left;
+    background-position-x: 5px;
+    width:82%;
+    padding:10px;
+    margin-top:20px;
+    border:1px solid #ccc;
+    padding-left:40px;
+    }
 #firstplace {
 background-image:url(../images/first.jpg);
 background-repeat:no-repeat;
@@ -84,6 +95,17 @@ background-position-x: 5px
         background-position: left;
         background-position-x: 5px
         }
+        #generation {
+            background-image:url(../images/generation.png);
+            background-repeat:no-repeat;
+            background-position: left;
+            background-position-x: 5px;
+            width:82%;
+padding:10px;
+margin-top:20px;
+border:1px solid #ccc;
+padding-left:40px;
+            }
 textarea {
 background-image:url(/images/msg.png);
 background-repeat:no-repeat;
@@ -92,7 +114,7 @@ width:82%;
 height:95px;
 padding:10px;
 resize:none;
-margin-top:30px;
+margin-top:20px;
 border:1px solid #ccc;
 padding-left:40px;
 font-size:16px;
