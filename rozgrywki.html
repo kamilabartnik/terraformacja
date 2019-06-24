@@ -12,7 +12,8 @@
     <!-- [if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></sctipt>
     <![endif]-->
-
+    <link href="styles/form.css" rel="stylesheet">
+    <script src="scripts/form.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   
   </head>
@@ -20,6 +21,8 @@
 
     #formstyle{
       text-align: center;
+      margin-left: auto;
+      margin-right: auto;
     }
     table {
       margin-left: auto;
@@ -53,7 +56,17 @@
             <h1> Wpisz swoją rozgrywkę: </h1>
 
           <div id="formcorrect">
-              <form>
+
+              <form action="#" id="form" method="post" name="form">
+                  <img id="close" src="images/3.png" onclick ="div_hide()">
+                  <h2>Contact Us</h2>
+                  <hr>
+                  <input id="name" name="name" placeholder="Name" type="text">
+                  <input id="email" name="email" placeholder="Email" type="text">
+                  <textarea id="msg" name="message" placeholder="Message"></textarea>
+                  <a href="javascript:%20check_empty()" id="submit">Send</a>
+                  </form>
+              <!-- <form>
                   <section>
                     <table cellpading="2">
 
@@ -94,7 +107,7 @@
                   </table>
                   </section>
     
-                </form>
+                </form> -->
     
           </div>
 
