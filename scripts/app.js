@@ -5,10 +5,12 @@ new Vue({
         monsterHealth: 100,
         gameIsRunning: false,
         random: 10,
-        turns: []
+        turns: [],
+        url: './images/planetssmall.jpg'
     },
     methods: {
         startGame: function() {
+            this.url = './images/tlosmall.png';
             this.gameIsRunning = true;
             this.playerHealth = 100;
             this.monsterHealth = 100;
@@ -70,9 +72,10 @@ new Vue({
         checkWin: function(){
             if(this.monsterHealth <=0){
                     if(confirm('Sterraformowałeś Marsa! Nowa gra?')){
-                        this.startGame();
+                        this.startGame();   
                     } else{
                     this.gameIsRunning = false;
+                    this.url = './images/planetssmall.jpg';
                     }
                     return true;
             } else if(this.playerHealth <=0){
@@ -80,6 +83,7 @@ new Vue({
                         this.startGame();
                     } else{
                     this.gameIsRunning = false;
+                    this.url = './images/planetssmall.jpg';
                     }
                     return true;
                 }

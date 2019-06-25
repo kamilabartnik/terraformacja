@@ -28,11 +28,14 @@
 
   </style>
 
-  <body>
+  <body >
+        <div id="app">
       <header>
+
+        
           <section id="screen1">
             <div id="logo">
-              <img src="images/planetssmall.jpg" alt="From Mars to Earth ">
+              <img :src="url" alt="From Mars to Earth ">
             </div>
             <nav id="navbar">
                 <ul>
@@ -49,7 +52,7 @@
       </header>
 
       <main>
-        <div id="app">
+        <div >
           <section class="row">
               <div class="small-6 columns">
                   <h1 class="text-center">ZIEMIA</h1>
@@ -93,9 +96,11 @@
                   </ul>
               </div>
           </section>
-      </div>
+        </div>
+      
       <script src="scripts/app.js"> </script>
       </main>
+    </div>
       <footer id="footer">
           <div id="foot">
             <p>Spędź swoich znajomych do Terraformowania Marsa</p>
