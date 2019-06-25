@@ -17,14 +17,16 @@
     height: 100%;
     /* overflow: auto; */
     float: left;
-    list-style-position: inside;
-    padding-left: 10px;
-    padding-right: 10px;
+
+    /* padding-left: 10px;
+    padding-right: 10px; */
     /* transition: width .35s; */
   }
   
   #sidebar {
+    list-style-position: inside;
     width: 30%;
+    /* max-width: 100px; */
     /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
     background-image: url("../images/tlo.png");
     box-shadow: 2px 0 4px rgba(160, 160, 160, 0.5); 
@@ -36,7 +38,6 @@
   
   #content {
     width: 65%;
-  
     font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
