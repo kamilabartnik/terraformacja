@@ -41,7 +41,7 @@ new Vue({
             this.monsterAttack();
         },
         heal: function() {
-            var heal = this.calculateDamage(10, 7)
+            var heal = this.calculateDamage(10, 5)
             if (this.playerHealth <90){
                 this.playerHealth += heal;
             }else{
@@ -58,7 +58,7 @@ new Vue({
             this.checkWin();
         },
         monsterAttack: function(){
-            var damage = this.calculateDamage(12,4)
+            var damage = this.calculateDamage(14,5)
             this.playerHealth -= damage;
             this.turns.unshift({
                 isPlayer: false,
