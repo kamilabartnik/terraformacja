@@ -10,13 +10,17 @@
 }
   
 #screen2 {
-  background:#f7f4f4a8;
+  /* background:#f7f4f4a8; */
 }
+
+/* #sidebar + #content {
+  width: 100%;
+} */
   
   #sidebar, #content {
-    height: 100%;
     /* overflow: auto; */
     float: left;
+    display: block;
 
     /* padding-left: 10px;
     padding-right: 10px; */
@@ -25,7 +29,7 @@
   
   #sidebar {
     list-style-position: inside;
-    width: 27%;
+    width: 30%;
     /* max-width: 100px; */
     /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
     background-image: url("../images/tlo.png");
@@ -33,21 +37,22 @@
     line-height: 2;
     letter-spacing: 0,5px;
     color: #afafaf;
-    padding-right: 10px;
+    padding: 2%;
   }
 
   
   #content {
-    width: 67%;
+    width: 63%;
     font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
-    padding: 0px 0px 0px 40px;
+    padding-left: 3%;
   }
   
   #content p{
     text-align: right;
     justify-content: flex-start;
+    flex-flow: wrap;
   }
   /* 
   #sidebar ol li:first-child {
