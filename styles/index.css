@@ -25,7 +25,7 @@
   
   #sidebar {
     list-style-position: inside;
-    width: 30%;
+    width: 27%;
     /* max-width: 100px; */
     /* This pattern is downloaded from www.toptal.com/designers/subtlepatterns/  */
     background-image: url("../images/tlo.png");
@@ -33,11 +33,12 @@
     line-height: 2;
     letter-spacing: 0,5px;
     color: #afafaf;
+    padding-right: 10px;
   }
 
   
   #content {
-    width: 65%;
+    width: 67%;
     font-size: 20px;
     line-height: 2;
     letter-spacing: 1px;
