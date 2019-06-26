@@ -33,3 +33,8 @@ function myFunction() {
     navbar.classList.remove("fixed");
   }
 }
+
+// send mail
+function sendMail() {
+  window.open('mailto:kbartnik@g.pl');
+}
