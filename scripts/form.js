@@ -6,11 +6,34 @@ function check_empty() {
     alert("Form Submitted Successfully...");
     }
     }
-    //Function To Display Popup
-    function div_show() {
-    document.getElementById('abc').style.display = "block";
-    }
-    //Function to Hide Popup
-    function div_hide(){
-    document.getElementById('abc').style.display = "none";
-    }
+    // //Function To Display Popup
+    // function div_show() {
+    // document.getElementById('abc').style.display = "block";
+    // }
+    // //Function to Hide Popup
+    // function div_hide(){
+    // document.getElementById('abc').style.display = "none";
+    // }
+
+    new Vue ({
+        el: "popupContact",
+
+        data: {
+                place:null,
+                date:null,
+                winner:null,
+                second:null,
+                third:null,
+                forth:null,
+                fifth:null,
+                generation:null,
+                msg:null,
+                send,
+        },
+        method: {
+            send: function() {
+                
+            }
+        }
+
+    })
