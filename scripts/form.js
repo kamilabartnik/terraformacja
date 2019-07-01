@@ -14,26 +14,26 @@ function check_empty() {
     // function div_hide(){
     // document.getElementById('abc').style.display = "none";
     // }
-
-    new Vue ({
+     new Vue ({
         el: "popupContact",
 
         data: {
-                place:null,
-                date:null,
-                winner:null,
-                second:null,
-                third:null,
-                forth:null,
-                fifth:null,
-                generation:null,
-                msg:null,
-                send,
-        },
-        method: {
-            send: function() {
-                
-            }
-        }
+               place:null,
+                 date:null,
+                 winner:null,
+                 second:null,
+                 third:null,
+                 forth:null,
+                 fifth:null,
+                 generation:null,
+                 msg:null,
+                 value:null,
+                 send,
+         },
+         method: {
+             send: function() {
+                 this.value = place;
+             }
+         }
 
-    })
+     })

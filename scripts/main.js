@@ -35,6 +35,6 @@ function myFunction() {
 }
 
 // send mail
-function sendMail() {
-  window.open( String( 'mailto:recipient^example.com' ).replace('^', '@') );
-}
+// function sendMail() {
+//   window.open( String( 'mailto:recipient^example.com' ).replace('^', '@') );
+// }
