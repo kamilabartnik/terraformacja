@@ -6,8 +6,6 @@ module.exports = {
   output: {
     path: path.resolve(__dirname, './dist'),
     publicPath: '/dist/',
-    publicPath: "/serve-vue-app",
-    outputDir: "docs",
     filename: 'build.js'
   },
   module: {
